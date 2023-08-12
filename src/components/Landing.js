@@ -229,12 +229,7 @@ const Landing = () => {
         
 
         <div className="flex flex-col w-[27%] h-full justify-start items-end z-0">
-          <QuestionWindow
-            code={code}
-            onChange={onChange}
-            language={language?.value}
-            theme={theme.value}
-          />
+          <QuestionWindow/>
         </div>
 
         <div className="flex flex-col w-[48%] h-full justify-start items-end z-0">
