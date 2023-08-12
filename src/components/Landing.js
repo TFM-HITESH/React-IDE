@@ -216,15 +216,17 @@ const Landing = () => {
       />  
 
       <div className=""></div>
-      <h1 className="text-xl font-semibold" padding="10px">Codequest IDE - International Society of Automation</h1>
-      <div className="flex flex-row z-10">
-        <div className="px-4 py-2">
-          <LanguagesDropdown onSelectChange={onSelectChange} />
-        </div>
-        <div className="px-4 py-2">
-          <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
-        </div>
+      {/*<h1 className="text-xl font-semibold text-center bg-sky-400 " padding="8px">Codequest IDE - International Society of Automation</h1>
+        */}
+      <div className="flex flex-row z-10 bg-sky-400">
+          <div className="px-4 py-3">
+            <LanguagesDropdown onSelectChange={onSelectChange} />
+          </div>
+          <div className="px-4 py-3">
+            <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
+          </div>
       </div>
+      
       <div className="flex flex-row space-x-4 items-start px-4 py-4">
         
 

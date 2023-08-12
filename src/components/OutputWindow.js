@@ -39,7 +39,7 @@ const OutputWindow = ({ outputDetails }) => {
         <h1 className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 ml-4 text-left">
           Output
         </h1>
-        <div className="w-[100%] h-56 bg-[#1e293b] rounded-md text-white font-normal text-sm overflow-y-auto ml-auto">
+        <div className="w-[100%] h-56 bg-[#1B2B34] rounded-md text-white font-normal text-sm overflow-y-auto ml-auto">
           {outputDetails ? <>{getOutput()}</> : null}
         </div>
       </div>
